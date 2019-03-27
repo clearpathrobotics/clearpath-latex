@@ -44,7 +44,7 @@
 
 %% Set up page formatting
 
-\RequirePackage[letterpaper, total={6.0in, 8in}, top=1.75in, left=1.5in]{geometry}
+\RequirePackage[letterpaper, total={6.5in, 8in}, top=1.75in, left=1.0in]{geometry}
 \newcommand{\sectionbreak}{\clearpage\thispagestyle{plain}}
 \pagenumbering{arabic}
 
