@@ -45,7 +45,7 @@
 %% Set up page formatting
 
 \RequirePackage[letterpaper, total={6.5in, 8in}, top=1.75in, left=1.0in]{geometry}
-\newcommand{\sectionbreak}{\clearpage\thispagestyle{plain}}
+% \newcommand{\sectionbreak}{\clearpage\thispagestyle{plain}}
 \pagenumbering{arabic}
 
 %% Placeholder image for missing figures
