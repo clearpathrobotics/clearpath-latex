@@ -21,7 +21,7 @@
 \RequirePackage{microtype}
 \RequirePackage{fontspec}
 \RequirePackage{xltxtra,xunicode}
-\RequirePackage{titlesec}
+\RequirePackage[nobottomtitles*]{titlesec}
 \RequirePackage{siunitx}
 \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 
@@ -54,7 +54,7 @@
 
 %% Set up heading
 
-\RequirePackage{titlesec}
+\RequirePackage[nobottomtitles*]{titlesec}
 \titleformat{\section}
   {\titlefont\fontsize{24pt}{6pt}\bfseries\color{orange}}{\hspace*{-12.8pt}\llap\thesection\hskip 12pt}{0pt}{\MakeUppercase}
 \titleformat{\subsection}
